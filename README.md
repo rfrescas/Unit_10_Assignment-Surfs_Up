@@ -90,14 +90,6 @@ Now that you have completed your initial analysis, design a Flask API based on t
 
   * When given the start and the end date, calculate the `TMIN`, `TAVG`, and `TMAX` for dates between the start and end date inclusive.
 
-## Hints
-
-* You will need to join the station and measurement tables for some of the analysis queries.
-
-* Use Flask `jsonify` to convert your API data into a valid JSON response object.
-
-- - -
-
 ### Optional: Other Recommended Analyses
 
 * The following are optional challenge queries. These are highly recommended to attempt, but not required for the homework.
@@ -131,7 +123,3 @@ Now that you have completed your initial analysis, design a Flask API based on t
 * Use Pandas to plot an area plot (`stacked=False`) for the daily normals.
 
   ![daily-normals](Images/daily-normals.png)
-
-## Copyright
-
-Data Boot Camp ©2019. All Rights Reserved.
